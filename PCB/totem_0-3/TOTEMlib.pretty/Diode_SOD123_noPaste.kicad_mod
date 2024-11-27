@@ -1,0 +1,133 @@
+(footprint "Diode_SOD123_noPaste"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(placed yes)
+	(layer "F.Cu")
+	(descr "Diode, DO-41, SOD81, Horizontal, RM 10mm,")
+	(tags "Diode, DO-41, SOD81, Horizontal, RM 10mm, 1N4007, SB140,")
+	(property "Reference" "DL16"
+		(at 0 1.5 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "b2e70561-dc9d-4ede-9c5a-a59ec20b617c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "D_Small"
+		(at 0 -1.2 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9f6bcfb0-8fba-463f-a4a9-37b3f63b8bd7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Diode_SOD123_noPaste"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8a60bdae-bcab-46ec-92b2-b9d9b082941e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c115e4e9-12b7-4675-b4c3-760055cfb90d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9488226e-af86-40d4-8105-9fbcce75663b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.5 -0.7)
+		(end -0.5 0.700001)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4b6a2e4f-9dd4-429e-99ed-f5557149ddb6")
+	)
+	(fp_line
+		(start -0.5 0)
+		(end 0.4 -0.7)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a13213da-438b-41c4-978b-c00737d0fbc5")
+	)
+	(fp_line
+		(start 0.4 -0.7)
+		(end 0.4 0.7)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3f5f56df-8b6e-4cf7-ac2d-b995a40aa432")
+	)
+	(fp_line
+		(start 0.4 0.7)
+		(end -0.5 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4363d940-2501-4d6e-844b-175d1eaa1164")
+	)
+	(pad "1" smd rect
+		(at -1.7 0)
+		(size 1.8 1.5)
+		(layers "F.Cu" "F.Mask")
+		(uuid "afc56d40-1dd8-4054-b9e8-385f9b6a571d")
+	)
+	(pad "2" smd rect
+		(at 1.7 0)
+		(size 1.8 1.5)
+		(layers "F.Cu" "F.Mask")
+		(uuid "ba20d43d-ccf9-46d8-8b53-989a61b21fac")
+	)
+	(model "${KIPRJMOD}/TOTEM3D/D_SOD-123.step"
+		(offset
+			(xyz 0 0 -0.1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
